@@ -456,7 +456,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1774444559}
-  - {fileID: 1759295755}
+  - {fileID: 1187899354}
   - {fileID: 1184506027}
   - {fileID: 2041607724}
   - {fileID: 1174991558}
@@ -970,6 +970,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184506026}
   m_CullTransparentMesh: 1
+--- !u!224 &1187899354 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+  m_PrefabInstance: {fileID: 1915153332}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1251109783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,164 +1155,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647343547}
-  m_CullTransparentMesh: 1
---- !u!1 &1759295754
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1759295755}
-  - component: {fileID: 1759295757}
-  - component: {fileID: 1759295756}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1759295755
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759295754}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 565003315}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: -31}
-  m_SizeDelta: {x: 755.052, y: 698.62}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1759295756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759295754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum
-    pretium nisi, a hendrerit justo efficitur eget. Pellentesque vel augue arcu.
-    Curabitur et molestie eros. Suspendisse vulputate dolor quis neque molestie commodo.
-    Morbi placerat pellentesque facilisis. Phasellus a imperdiet leo, nec semper
-    leo. Integer ultricies ligula et lectus sollicitudin, nec faucibus neque lobortis.
-    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-    turpis egestas. Ut consectetur arcu ac ante pulvinar sagittis. Nulla in magna
-    purus. Donec non rutrum risus, quis vehicula sapien. Morbi pharetra neque ac
-    odio gravida egestas. Suspendisse potenti. Nulla venenatis mi ipsum, ut semper
-    mi laoreet eget. Duis at venenatis nunc. Suspendisse sed fringilla eros.
-
-
-
-    Phasellus
-    ac mauris aliquam tortor mattis varius quis sit amet urna. Duis luctus magna
-    quis sapien suscipit sollicitudin. Maecenas metus orci, facilisis id egestas
-    a, rutrum eget enim. Donec consectetur, lectus eu faucibus commodo, lorem ipsum
-    aliquam nulla, non aliquam ex metus id ante. Nunc tincidunt eget nulla maximus
-    eleifend. Ut egestas finibus eros, vel commodo orci molestie ac. Nulla malesuada
-    molestie bibendum. Nam lacinia enim ex, et finibus enim bibendum vel. Vivamus
-    nulla leo, tincidunt sit amet sem sed, faucibus tristique eros. Aenean sollicitudin
-    sapien vel justo ullamcorper, quis.'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 25.6
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 1
-  m_fontSizeMax: 200
-  m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1759295757
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759295754}
   m_CullTransparentMesh: 1
 --- !u!1 &1774444558
 GameObject:
@@ -1579,6 +1426,179 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859795892}
   m_CullTransparentMesh: 1
+--- !u!1001 &1915153332
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 565003315}
+    m_Modifications:
+    - target: {fileID: 135217379065429826, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135217379065429826, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135217379065429826, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531495469617054462, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_text
+      value: "Les Mi\u2019gmaq sont un peuple autochtone de l\u2019Est du Canada.
+        Leur territoire ancestral s\u2019appelle Mi\u2019kma\u2019ki et comprend
+        principalement les provinces maritimes, comme la Nouvelle-\xC9cosse, le Nouveau-Brunswick
+        et l\u2019\xCEle-du-Prince-\xC9douard, ainsi qu\u2019une partie du Qu\xE9bec,
+        notamment la Gasp\xE9sie. Ce territoire couvre plusieurs centaines de milliers
+        de kilom\xE8tres carr\xE9s. Ils font partie de la famille des peuples algonquiens.\LLes
+        Mi\u2019gmaq vivent sur ce territoire depuis des milliers d\u2019ann\xE9es,
+        avec une pr\xE9sence estim\xE9e \xE0 plus de 10 000 ans. Leur mode de vie
+        traditionnel \xE9tait nomade et d\xE9pendait des saisons. Ils se d\xE9pla\xE7aient
+        pour chasser, p\xEAcher et se nourrir. Le territoire \xE9tait essentiel \xE0
+        leur survie et \xE0 leur organisation.\LLes Mi\u2019gmaq faisaient partie
+        de la Conf\xE9d\xE9ration Wabanaki, une alliance avec d\u2019autres nations
+        comme les Wolastoqiyik, les Ab\xE9naquis et les Cris. Cette alliance regroupait
+        plusieurs peuples de l\u2019Est et permettait de maintenir des relations,
+        d\u2019\xE9changer et de se soutenir.\LLa chasse, la p\xEAche et la cueillette
+        occupaient une place importante dans leur quotidien. Les Mi\u2019gmaq utilisaient
+        les ressources de mani\xE8re compl\xE8te, sans gaspillage. Les mat\xE9riaux
+        naturels comme le bois, les os ou les peaux servaient \xE0 fabriquer des
+        outils, des v\xEAtements et des objets utiles.\LLa culture mi\u2019gmaq accorde
+        aussi une grande importance aux relations entre les personnes. Le respect,
+        le partage et la gratitude sont des valeurs importantes. Par exemple, le
+        mot  signifie \xAB remercier avec respect et humilit\xE9 \xBB. Ce type de
+        mot montre l\u2019importance des relations humaines dans leur culture.\LLa
+        langue mi\u2019gmaq fait partie des langues algonquiennes. Elle est encore
+        parl\xE9e par plusieurs milliers de personnes aujourd\u2019hui. Elle permet
+        d\u2019exprimer des id\xE9es li\xE9es \xE0 la nature, aux \xE9motions et
+        \xE0 la vie quotidienne. Par exemple, le mot nipintoq signifie \xAB chanter
+        la nuit \xBB, et le mot esmatmugsit signifie \xAB beau \xBB ou \xAB agr\xE9able
+        \xBB.\L\xC0 partir du 16e si\xE8cle, l\u2019arriv\xE9e des Europ\xE9ens a
+        transform\xE9 la vie des Mi\u2019gmaq. Ils ont \xE9tabli des relations avec
+        les Fran\xE7ais, notamment dans le commerce. Avec le temps, la colonisation
+        a entra\xEEn\xE9 des pertes de territoire et des changements importants dans
+        leur mode de vie.\LLes Mi\u2019gmaq ont aussi \xE9t\xE9 touch\xE9s par les
+        politiques coloniales, comme la s\xE9dentarisation et les r\xE9serves. Malgr\xE9
+        cela, ils ont continu\xE9 \xE0 pr\xE9server leur culture et leurs traditions.\LAujourd\u2019hui,
+        les Mi\u2019gmaq sont pr\xE9sents dans plusieurs communaut\xE9s au Canada.
+        On compte environ 35 000 Mi\u2019gmaq au Canada, r\xE9partis dans plusieurs
+        communaut\xE9s. Au Qu\xE9bec, ils vivent notamment en Gasp\xE9sie, dans des
+        communaut\xE9s comme Listuguj et Gesgapegiag.\LLa langue mi\u2019gmaq est
+        encore utilis\xE9e aujourd\u2019hui, m\xEAme si elle a \xE9t\xE9 fragilis\xE9e.
+        Des efforts sont faits pour la pr\xE9server et l\u2019enseigner aux jeunes
+        g\xE9n\xE9rations.\LLes Mi\u2019gmaq continuent aujourd\u2019hui de maintenir
+        leur culture, leurs traditions et leur lien avec le territoire. Leur identit\xE9
+        repose sur la transmission des savoirs, le respect des autres et l\u2019adaptation
+        aux r\xE9alit\xE9s actuelles."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5420081523705349457, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_Name
+      value: Scroll View
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 799.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 710.3355
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680876887152125816, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680876887152125816, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680876887152125816, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713622039241801161, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 2963.134
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
 --- !u!1 &2041607723
 GameObject:
   m_ObjectHideFlags: 0
