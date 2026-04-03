@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ExplicationMigmaq.unity
     guid: 43f395c2760785341a82efd52d8afc39
   - enabled: 1
-    path: Assets/Scenes/miniJeuQuizzPeupleMigmaq.unity
+    path: Assets/Scenes/miniJeuQuizzMigmaq.unity
     guid: fd875e9e12de9e14a9b7e1334cc9cfd1
   - enabled: 1
     path: Assets/Scenes/miniJeuRelierMigmaq.unity

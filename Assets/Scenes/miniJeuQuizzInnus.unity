@@ -1376,39 +1376,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuizGameManager
   questions:
-  - questionText: "Comment s\u2019appelle le territoire ancestral des Mi\u2019gmaq
-      ?"
+  - questionText: "Comment s\u2019appelle le territoire ancestral des Innus ?"
     answers:
-    - A. Nitassinan
-    - "B. Mi\u2019kma\u2019ki"
-    - C. Wolastokuk
+    - A. Wolastokuk
+    - B. Nitassinan
+    - C. Eeyou Istchee
     correctAnswerIndex: 1
-  - questionText: "Depuis combien de temps les Mi\u2019gmaq vivent-ils sur leur territoire
+  - questionText: "Quel animal \xE9tait central dans leur mode de vie traditionnel
       ?"
     answers:
-    - A. 1 000 ans
-    - B. 5 000 ans
-    - C. Plus de 10 000 ans
+    - A. Le castor
+    - B. Le caribou
+    - C. Le saumon
+    correctAnswerIndex: 1
+  - questionText: "Qu\u2019est-ce que le makusham ?"
+    answers:
+    - A. Un outil de chasse
+    - "B. Une danse, un repas et une c\xE9l\xE9bration"
+    - "C. Un type d\u2019habitation"
+    correctAnswerIndex: 1
+  - questionText: "\xC0 quoi servent les piquets dans le travail des peaux ?"
+    answers:
+    - "A. \xC0 couper la peau"
+    - "B. \xC0 la d\xE9corer"
+    - "C. \xC0 l\u2019\xE9tirer pour la faire s\xE9cher"
     correctAnswerIndex: 2
-  - questionText: "\xC0 quelle famille de peuples appartiennent-ils ?"
+  - questionText: "Comment s\u2019appelle la langue des Innus ?"
     answers:
-    - A. Inuit
-    - B. Algonquienne
-    - C. Iroquoienne
-    correctAnswerIndex: 1
-  - questionText: "Environ combien de Mi\u2019gmaq vivent au Canada aujourd\u2019hui
-      ?"
-    answers:
-    - A. 10 000
-    - B. 35 000
-    - C. 80 000
-    correctAnswerIndex: 1
-  - questionText: "Environ combien de Mi\u2019gmaq vivent au Canada aujourd\u2019hui
-      ?"
-    answers:
-    - A. Abitibi
-    - "B. Gasp\xE9sie"
-    - "C. Montr\xE9al"
+    - A. Inuktitut
+    - B. Innu-aimun
+    - C. Algonquin
     correctAnswerIndex: 1
   questionText: {fileID: 186432779}
   progressText: {fileID: 1547579730}
@@ -2397,7 +2394,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ChoixMinijeuPeuple1
+          m_StringArgument: ChoixMinijeuInnus
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1698519874

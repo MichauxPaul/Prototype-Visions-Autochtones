@@ -919,7 +919,7 @@ PrefabInstance:
       objectReference: {fileID: 1591550550}
     - target: {fileID: 3654476494889322481, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: ChoixMinijeuMigmaq
+      value: ChoixMinijeuInnus
       objectReference: {fileID: 0}
     - target: {fileID: 4537773950796112349, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
       propertyPath: m_Name
