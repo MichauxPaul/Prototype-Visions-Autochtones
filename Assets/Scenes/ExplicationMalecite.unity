@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!224 &170464086 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+  m_PrefabInstance: {fileID: 697462466}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &255202427
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,7 +461,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1774444559}
-  - {fileID: 1759295755}
+  - {fileID: 170464086}
   - {fileID: 1184506027}
   - {fileID: 2041607724}
   - {fileID: 1174991558}
@@ -608,6 +613,183 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622694148}
   m_CullTransparentMesh: 1
+--- !u!1001 &697462466
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 565003315}
+    m_Modifications:
+    - target: {fileID: 135217379065429826, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135217379065429826, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135217379065429826, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531495469617054462, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_text
+      value: "Les Wolastoqiyik, souvent appel\xE9s Mal\xE9cites, sont un peuple autochtone
+        de l\u2019Est de l\u2019Am\xE9rique du Nord. Leur territoire ancestral, appel\xE9
+        Wolastokuk, s\u2019\xE9tend autour de la rivi\xE8re Wolastoq, aujourd\u2019hui
+        connue sous le nom de rivi\xE8re Saint-Jean. Ce territoire se situe entre
+        le Nouveau-Brunswick, le Qu\xE9bec et le Maine. Le nom Wolastoqiyik signifie
+        \xAB peuple de la belle rivi\xE8re \xBB.\LPr\xE9sents sur ce territoire depuis
+        plusieurs mill\xE9naires, certains estiment leur pr\xE9sence \xE0 plus de
+        8 000 ans, les Wolastoqiyik font partie de la famille des peuples algonquiens.
+        Ils sont li\xE9s \xE0 d\u2019autres nations de l\u2019Est, comme les Mi\u2019gmaq
+        et les Ab\xE9naquis. Ils faisaient partie de la Conf\xE9d\xE9ration Wabanaki,
+        une alliance entre plusieurs peuples qui permettait de s\u2019entraider et
+        de maintenir des relations entre les communaut\xE9s.\LAvant l\u2019arriv\xE9e
+        des Europ\xE9ens, les Wolastoqiyik avaient un mode de vie semi-nomade. Leur
+        organisation d\xE9pendait des saisons. Pendant certaines p\xE9riodes, ils
+        restaient pr\xE8s des rivi\xE8res pour p\xEAcher et \xE9changer. \xC0 d\u2019autres
+        moments, ils se d\xE9pla\xE7aient dans les terres pour chasser. Leur alimentation
+        reposait sur la chasse, la p\xEAche, la cueillette et l\u2019agriculture,
+        notamment la culture du ma\xEFs.\LLes rivi\xE8res jouaient un r\xF4le important
+        dans leurs d\xE9placements. Elles permettaient de voyager sur de longues
+        distances et de relier diff\xE9rents groupes. Les connaissances du territoire,
+        comme les chemins de portage et les zones de chasse, \xE9taient transmises
+        entre les g\xE9n\xE9rations. Cette transmission permettait de conserver les
+        savoirs et de continuer \xE0 utiliser le territoire de fa\xE7on efficace.\LLes
+        Wolastoqiyik fabriquaient aussi de nombreux objets \xE0 partir de mat\xE9riaux
+        naturels. Le bois et l\u2019\xE9corce \xE9taient utilis\xE9s pour cr\xE9er
+        des outils, des contenants et d\u2019autres objets du quotidien. Ces objets
+        \xE9taient adapt\xE9s \xE0 leurs besoins et \xE0 leur environnement.\LLeur
+        langue traditionnelle s\u2019appelle le wolastoqey latuwewakon. Elle fait
+        partie des langues algonquiennes. Elle permet de nommer les \xE9l\xE9ments
+        du territoire, les animaux et les pratiques de la vie quotidienne. Par exemple,
+        le mot muwin signifie \xAB ours \xBB et le mot  signifie \xAB viande d\u2019orignal
+        \xBB.\L\xC0 partir du 16e si\xE8cle, l\u2019arriv\xE9e des Europ\xE9ens a
+        chang\xE9 leur situation. Les Wolastoqiyik ont d\u2019abord eu des contacts
+        avec les Fran\xE7ais, surtout dans le commerce. Avec le temps, la pr\xE9sence
+        europ\xE9enne s\u2019est intensifi\xE9e. Les conflits entre Fran\xE7ais et
+        Britanniques ont eu des cons\xE9quences sur leur territoire. Les terres occup\xE9es
+        par les Wolastoqiyik ont \xE9t\xE9 r\xE9duites et leur mode de vie a \xE9t\xE9
+        modifi\xE9.\LCes changements ont aussi eu des effets sur la sant\xE9. Le
+        diab\xE8te, appel\xE9 sukolinewey en wolastoqey latuwewakon, est aujourd\u2019hui
+        pr\xE9sent dans plusieurs communaut\xE9s. Cette situation est li\xE9e aux
+        transformations du mode de vie, notamment l\u2019alimentation et la diminution
+        des activit\xE9s physiques traditionnelles.\LAu 19e si\xE8cle, les Wolastoqiyik
+        ont \xE9t\xE9 regroup\xE9s dans des \xE9tablissements qui deviendront des
+        r\xE9serves. La r\xE9serve de Viger, cr\xE9\xE9e officiellement vers 1850,
+        en est un exemple. Les conditions de vie y \xE9taient difficiles, avec moins
+        de territoire et de ressources. Avec le temps, une partie de la population
+        s\u2019est dispers\xE9e.\LAujourd\u2019hui, les Wolastoqiyik vivent au Canada
+        et aux \xC9tats-Unis. Au Qu\xE9bec, la Premi\xE8re Nation Wolastoqiyik Wahsipekuk
+        compte environ 1 500 membres et n\u2019est pas regroup\xE9e dans une seule
+        r\xE9serve. La nation a \xE9t\xE9 reconnue officiellement en 1989 comme la
+        11e nation autochtone du Qu\xE9bec.\LLa langue wolastoqey latuwewakon est
+        moins utilis\xE9e qu\u2019avant, mais elle reste importante. Le fran\xE7ais
+        et l\u2019anglais sont aujourd\u2019hui les langues les plus parl\xE9es.
+        Des efforts sont faits pour pr\xE9server et transmettre la langue.\LLes Wolastoqiyik
+        continuent aujourd\u2019hui de maintenir leur culture, leur langue et leurs
+        connaissances. Leur histoire montre les changements qu\u2019ils ont v\xE9cus,
+        mais aussi leur capacit\xE9 \xE0 s\u2019adapter et \xE0 continuer d\u2019exister."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5420081523705349457, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_Name
+      value: Scroll View
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 799.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 710.3355
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000026703
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787134821804213247, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713622039241801161, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 3810.293
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128340669790882897, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
+      propertyPath: m_Value
+      value: 0.9999992
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8449977fd02bec141b3b46da8402c3ec, type: 3}
 --- !u!1 &942981635
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,164 +1332,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647343547}
-  m_CullTransparentMesh: 1
---- !u!1 &1759295754
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1759295755}
-  - component: {fileID: 1759295757}
-  - component: {fileID: 1759295756}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1759295755
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759295754}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 565003315}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: -31}
-  m_SizeDelta: {x: 755.052, y: 698.62}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1759295756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759295754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum
-    pretium nisi, a hendrerit justo efficitur eget. Pellentesque vel augue arcu.
-    Curabitur et molestie eros. Suspendisse vulputate dolor quis neque molestie commodo.
-    Morbi placerat pellentesque facilisis. Phasellus a imperdiet leo, nec semper
-    leo. Integer ultricies ligula et lectus sollicitudin, nec faucibus neque lobortis.
-    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-    turpis egestas. Ut consectetur arcu ac ante pulvinar sagittis. Nulla in magna
-    purus. Donec non rutrum risus, quis vehicula sapien. Morbi pharetra neque ac
-    odio gravida egestas. Suspendisse potenti. Nulla venenatis mi ipsum, ut semper
-    mi laoreet eget. Duis at venenatis nunc. Suspendisse sed fringilla eros.
-
-
-
-    Phasellus
-    ac mauris aliquam tortor mattis varius quis sit amet urna. Duis luctus magna
-    quis sapien suscipit sollicitudin. Maecenas metus orci, facilisis id egestas
-    a, rutrum eget enim. Donec consectetur, lectus eu faucibus commodo, lorem ipsum
-    aliquam nulla, non aliquam ex metus id ante. Nunc tincidunt eget nulla maximus
-    eleifend. Ut egestas finibus eros, vel commodo orci molestie ac. Nulla malesuada
-    molestie bibendum. Nam lacinia enim ex, et finibus enim bibendum vel. Vivamus
-    nulla leo, tincidunt sit amet sem sed, faucibus tristique eros. Aenean sollicitudin
-    sapien vel justo ullamcorper, quis.'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 25.6
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 1
-  m_fontSizeMax: 200
-  m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1759295757
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759295754}
   m_CullTransparentMesh: 1
 --- !u!1 &1774444558
 GameObject:

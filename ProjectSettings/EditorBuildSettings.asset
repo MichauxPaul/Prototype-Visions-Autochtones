@@ -26,6 +26,51 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/miniJeuRelierMigmaq.unity
     guid: 17d17faf32864634190bf3f4b8b7ce43
+  - enabled: 1
+    path: Assets/Scenes/ChoixMinijeuCris.unity
+    guid: 1143ff72dc8022346ac8f4734bfab127
+  - enabled: 1
+    path: Assets/Scenes/ChoixMinijeuInnus.unity
+    guid: 3aa4f2d59a648ff44a31cb03450c37a7
+  - enabled: 1
+    path: Assets/Scenes/ChoixMinijeuMalecite.unity
+    guid: 842490be76deadf4ba263c39d167d4e8
+  - enabled: 1
+    path: Assets/Scenes/ExplicationCris.unity
+    guid: 071b52f0c73b1a14084d32d35c3164aa
+  - enabled: 1
+    path: Assets/Scenes/ExplicationInnus.unity
+    guid: dc56cb32959ead24490fbdaf414abc77
+  - enabled: 1
+    path: Assets/Scenes/ExplicationMalecite.unity
+    guid: bb7ed9dd82b48fa45a14bc657fdfb7f1
+  - enabled: 1
+    path: Assets/Scenes/miniJeuDragAndDropCris.unity
+    guid: 9f5e4dece4a777147a69d5184ed71989
+  - enabled: 1
+    path: Assets/Scenes/miniJeuDragAndDropInnus.unity
+    guid: 3bf2e3e1d7b41a541bca66665c403f14
+  - enabled: 1
+    path: Assets/Scenes/miniJeuDragAndDropMalecite.unity
+    guid: 16f18fb035590a842af4c15ffd249197
+  - enabled: 1
+    path: Assets/Scenes/miniJeuQuizzCris.unity
+    guid: aca30a98474d0a34a9055c6d75ad1fbe
+  - enabled: 1
+    path: Assets/Scenes/miniJeuQuizzInnus.unity
+    guid: 310708df5eb11ae43adacd574dae7952
+  - enabled: 1
+    path: Assets/Scenes/miniJeuQuizzMalecite.unity
+    guid: 3d9c64d6abe36e24c90f85f59344982f
+  - enabled: 1
+    path: Assets/Scenes/miniJeuRelierCris.unity
+    guid: cb2341e07641f7941b776472b4e52737
+  - enabled: 1
+    path: Assets/Scenes/miniJeuRelierInnus.unity
+    guid: 8ae18724aac21094780255f8242bd477
+  - enabled: 1
+    path: Assets/Scenes/miniJeuRelierMalecite.unity
+    guid: a60f94ef5ea1f6d41a9b5ac237aa29bc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
