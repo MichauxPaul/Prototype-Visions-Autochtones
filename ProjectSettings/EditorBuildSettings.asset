@@ -12,14 +12,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Map.unity
     guid: 36e047ba11d8e174c8d7bbea553be680
   - enabled: 1
-    path: Assets/Scenes/ChoixMinijeuPeuple1.unity
+    path: Assets/Scenes/ChoixMinijeuMigmaq.unity
     guid: d2f5cda3562572a44b84b7d967c0a22f
   - enabled: 1
-    path: Assets/Scenes/miniJeuDragAndDropPeuple1.unity
+    path: Assets/Scenes/miniJeuDragAndDropMigmaq.unity
     guid: 8e101a5a4e764d446a0ee9e5e540d7e9
   - enabled: 1
-    path: Assets/Scenes/Explication1Peuple1.unity
+    path: Assets/Scenes/ExplicationMigmaq.unity
     guid: 43f395c2760785341a82efd52d8afc39
+  - enabled: 1
+    path: Assets/Scenes/miniJeuQuizzPeupleMigmaq.unity
+    guid: fd875e9e12de9e14a9b7e1334cc9cfd1
+  - enabled: 1
+    path: Assets/Scenes/miniJeuRelierMigmaq.unity
+    guid: 17d17faf32864634190bf3f4b8b7ce43
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

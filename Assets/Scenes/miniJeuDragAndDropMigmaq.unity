@@ -432,11 +432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
---- !u!1 &754182066 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4537773950796112349, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
-  m_PrefabInstance: {fileID: 5941487049012693533}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &966383582
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,7 +640,7 @@ MonoBehaviour:
   - {fileID: 353017581}
   validateButton: {fileID: 445607750}
   resultText: {fileID: 689417410}
-  explicationButton: {fileID: 754182066}
+  ReturnMiniGameChoise: {fileID: 5941487049012693534}
   retryButton: {fileID: 1619703895}
   startPanel: {fileID: 1006885082}
   background: {fileID: 13679721}
@@ -922,6 +917,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1591550550}
+    - target: {fileID: 3654476494889322481, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ChoixMinijeuPeuple1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537773950796112349, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
+      propertyPath: m_Name
+      value: ReturnMiniGameChoiseButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763635447746051487, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
+      propertyPath: m_text
+      value: Retour aux choix des minis jeux
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763635447746051487, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
+      propertyPath: m_fontSize
+      value: 87.05
+      objectReference: {fileID: 0}
     - target: {fileID: 7359066062609405922, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1011,6 +1022,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
+--- !u!1 &5941487049012693534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4537773950796112349, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
+  m_PrefabInstance: {fileID: 5941487049012693533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

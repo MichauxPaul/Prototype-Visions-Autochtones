@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public DropZone[] dropZones;
     public GameObject validateButton;
     public TMP_Text resultText;
-    public GameObject explicationButton;
+    public GameObject ReturnMiniGameChoise;
     public GameObject retryButton;
 
     public GameObject startPanel;   
@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
 
         validateButton.SetActive(false);
         resultText.gameObject.SetActive(false);
-        explicationButton.SetActive(false);
+        ReturnMiniGameChoise.SetActive(false);
         retryButton.SetActive(false);
     }
 
@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
         //on vérifie le nombre d'élément qui sont bien placé et si tout est bien placer on affiche le bouton pour aller vers les explications sinon on affiche le bouton pour recommencer a placer les objects
         if (wrong == 0)
         {
-            explicationButton.SetActive(true);
+            ReturnMiniGameChoise.SetActive(true);
             
         }
         else
@@ -112,7 +112,7 @@ public class GameManager : MonoBehaviour
         //une fois que l'on a cliquer sur le bouton recommencer, on cache tout les textes
         resultText.gameObject.SetActive(false);
 
-        explicationButton.SetActive(false);
+        ReturnMiniGameChoise.SetActive(false);
         retryButton.SetActive(false);
 
         // et on réactive les objets pour pouvoir les redéplacer

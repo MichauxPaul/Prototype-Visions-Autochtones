@@ -13,7 +13,7 @@ public class LinkGameManager : MonoBehaviour
 
     public GameObject validateButton;
     public GameObject retryButton;
-    public GameObject explicationButton;
+    public GameObject ReturnMiniGameChoiseButton;
 
     public TMP_Text resultText;
 
@@ -25,7 +25,7 @@ public class LinkGameManager : MonoBehaviour
 
         validateButton.SetActive(false);
         retryButton.SetActive(false);
-        explicationButton.SetActive(false);
+        ReturnMiniGameChoiseButton.SetActive(false);
         resultText.gameObject.SetActive(false);
     }
 
@@ -67,7 +67,7 @@ public class LinkGameManager : MonoBehaviour
         //si il n'y a pas d'erreur, on affiche le bouton d'explication sinon on affiche le bouton pour recommencer
         if (wrong == 0)
         {
-            explicationButton.SetActive(true);
+            ReturnMiniGameChoiseButton.SetActive(true);
         }
         else
         {
@@ -86,7 +86,7 @@ public class LinkGameManager : MonoBehaviour
         resultText.gameObject.SetActive(false);
 
         retryButton.SetActive(false);
-        explicationButton.SetActive(false);
+        ReturnMiniGameChoiseButton.SetActive(false);
 
         lineManager.ResetConnections();
         lineManager.SetInteraction(true);
