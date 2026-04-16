@@ -508,7 +508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Node
   nodeID: 4
-  matchID: 1
+  matchID: A
 --- !u!58 &403946428
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -819,7 +819,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8396226, g: 0.22574759, b: 0.22574759, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -875,7 +875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Node
   nodeID: 2
-  matchID: 5
+  matchID: B
 --- !u!58 &649433104
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1053,7 +1053,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.30935845, g: 0.8396226, b: 0.14653791, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1114,7 +1114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Node
   nodeID: 3
-  matchID: 6
+  matchID: C
 --- !u!58 &804513114
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1817,10 +1817,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mini jeu association
+  m_text: MINI JEU ASSOCIATION
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c88eb7cb05d7ac4439de48d0651450c3, type: 2}
+  m_sharedMaterial: {fileID: -989454911570715982, guid: c88eb7cb05d7ac4439de48d0651450c3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1844,7 +1844,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 97.4
+  m_fontSize: 78.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2431,7 +2431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Node
   nodeID: 5
-  matchID: 2
+  matchID: B
 --- !u!58 &1489097816
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2840,7 +2840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Node
   nodeID: 6
-  matchID: 3
+  matchID: C
 --- !u!58 &1569352248
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3109,7 +3109,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8396226, g: 0.22574759, b: 0.22574759, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3200,7 +3200,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.30935845, g: 0.8396226, b: 0.14653791, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3256,7 +3256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   nodeID: 1
-  matchID: 4
+  matchID: A
 --- !u!58 &1956795793
 CircleCollider2D:
   m_ObjectHideFlags: 0

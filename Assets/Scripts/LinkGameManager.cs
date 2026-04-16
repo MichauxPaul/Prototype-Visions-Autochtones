@@ -56,15 +56,16 @@ public class LinkGameManager : MonoBehaviour
     // ✅ Vérifier
     public void Validate()
     {
-        //avec le line manager on calcule combien de connexions sont bonnes et combien sont fausses
         int correct, wrong;
         lineManager.GetResults(out correct, out wrong);
 
-        //on affiche le résultat
         resultText.gameObject.SetActive(true);
         resultText.text = "Liaison correct : " + correct + " | Lisaisons fausse : " + wrong;
 
-        //si il n'y a pas d'erreur, on affiche le bouton d'explication sinon on affiche le bouton pour recommencer
+        // 🔥 IMPORTANT : reset UI
+        retryButton.SetActive(false);
+        ReturnMiniGameChoiseButton.SetActive(false);
+
         if (wrong == 0)
         {
             ReturnMiniGameChoiseButton.SetActive(true);
@@ -76,7 +77,6 @@ public class LinkGameManager : MonoBehaviour
 
         validateButton.SetActive(false);
 
-        //on bloque les connexions
         lineManager.SetInteraction(false);
     }
 
@@ -88,7 +88,7 @@ public class LinkGameManager : MonoBehaviour
         retryButton.SetActive(false);
         ReturnMiniGameChoiseButton.SetActive(false);
 
-        lineManager.ResetConnections();
+        
         lineManager.SetInteraction(true);
 
         validateButton.SetActive(false);
