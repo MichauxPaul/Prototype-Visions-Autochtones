@@ -933,6 +933,26 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 87.05
       objectReference: {fileID: 0}
+    - target: {fileID: 5132079675963065232, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
+      propertyPath: m_text
+      value: MINI JEU D'ASSOCIATION
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132079675963065232, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
+      propertyPath: m_fontSize
+      value: 96.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132079675963065232, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: c88eb7cb05d7ac4439de48d0651450c3, type: 2}
+    - target: {fileID: 5132079675963065232, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -989454911570715982, guid: c88eb7cb05d7ac4439de48d0651450c3, type: 2}
+    - target: {fileID: 5132079675963065232, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7359066062609405922, guid: 667fbba9aedceb04ea2ced7bc5791657, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
