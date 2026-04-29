@@ -83,6 +83,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ExplicationConclusionCris.unity
     guid: 5ef53946b799c9d41a12bef9e83489c9
+  - enabled: 1
+    path: Assets/Scenes/ChoixExplicationInnus.unity
+    guid: 18daa29c5055ef849ade5f37a54d4e28
+  - enabled: 1
+    path: Assets/Scenes/IntroInnus.unity
+    guid: ec04b2ba7b71e7b42ac1799b9cdc85e6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
